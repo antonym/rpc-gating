@@ -91,7 +91,7 @@ def prepare() {
         git url: env.OSA_OPS_REPO, branch: "master"
         sh "git checkout ${env.OSA_OPS_BRANCH}"
       }
-      dir("openstack-ansible-ops/${env.MULTI_NODE_AIO_DIR}") {
+      dir("openstack-ansible-ops/multi-node-aio") {
         // The multi-node-aio tool is quite modest when it comes to allocating
         // RAM to VMs -- since we have RAM to spare we double that assigned to
         // infra nodes.
