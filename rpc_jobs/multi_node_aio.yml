@@ -144,7 +144,7 @@
           DEPLOY_TELEGRAF: "{DEPLOY_TELEGRAF}"
           DEPLOY_INFLUX: "{DEPLOY_INFLUX}"
       - instance_params:
-          IMAGE: "OnMetal - Ubuntu 14.04 LTS (Trusty Tahr)"
+          IMAGE: "OnMetal - Ubuntu 16.04 LTS (Xenial Xerus)"
           FLAVOR: "onmetal-io1"
           REGIONS: "IAD"
           FALLBACK_REGIONS: ""
